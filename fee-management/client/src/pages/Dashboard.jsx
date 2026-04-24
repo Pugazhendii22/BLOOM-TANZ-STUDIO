@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar'
 import SummaryCard from '../components/SummaryCard'
 import client from '../api/client'
 
-export default function Dashboard() {
+export default function Dashboard {
   const navigate = useNavigate()
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
