@@ -1,5 +1,5 @@
-// import express from 'express'
-// import { db } from '../firebase/admin.js'
+import express from 'express'
+import { db } from '../firebase/admin.js'
 
 const router = express.Router()
 
